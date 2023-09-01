@@ -1,0 +1,15 @@
+{
+    "name": "krshk/mvc",
+    "autoload": {
+        "classmap": [
+            "./"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Mohamed Reda",
+            "email": "m7mdreda74@gmail.com"
+        }
+    ],
+    "require": {}
+}
