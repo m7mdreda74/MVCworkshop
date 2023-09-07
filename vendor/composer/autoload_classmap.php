@@ -10,7 +10,11 @@ return array(
     'Composer\\Autoload\\ClassLoader' => $vendorDir . '/composer/ClassLoader.php',
     'Composer\\Autoload\\ComposerStaticInit057cf51b7fc22f78023793d6aacca07a' => $vendorDir . '/composer/autoload_static.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
-    'app\\PageControllers\\PageController' => $baseDir . '/app/controllers/PageController.php',
+    'app\\controllers\\ArticleController' => $baseDir . '/app/controllers/ArticleController.php',
+    'app\\controllers\\PageController' => $baseDir . '/app/controllers/PageController.php',
+    'core\\App' => $baseDir . '/core/App.php',
     'core\\Request' => $baseDir . '/core/Request.php',
     'core\\Router' => $baseDir . '/core/Router.php',
+    'core\\database\\Connection' => $baseDir . '/core/database/connection.php',
+    'core\\database\\QueryBuilder' => $baseDir . '/core/QueryBuilder.php',
 );

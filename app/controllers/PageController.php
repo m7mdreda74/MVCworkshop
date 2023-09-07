@@ -1,18 +1,24 @@
 <?php
-namespace app\PageControllers;
-class PageController{
-    public function about(){
-    $articles =[
-       [ 'title'=>'About',
-       'description'=>'About',
-       'url'=>'About'
-    ],
-    [ 'title'=>'About2',
-       'description'=>'About2',
-       'url'=>'About2'
-    ],
-     
-];
+
+namespace app\controllers;
+
+class PageController {
+
+    public function about () {
+
+        $articles =[
+            [
+                'title'=>'About',
+                'description'=>'About',
+                'url'=>'about'
+            ],
+            [
+                'title'=>'About2',
+                'description'=>'About2',
+                'url'=>'about2'
+            ]
+        ];
+        
         return view('about', compact('articles'));
     }
 }
